@@ -29,7 +29,7 @@ b4 + b5 : ( cong cu dc chon vao ngay 29/10)
 --> hinh thuc thuc hien
 	* theo nhom 
 	* thioi gian : 
-	19/ 11 nop bai.
+	19 / 11 nop bai.
 --> Chu y : 
 	* Ten nhom va ten du an phai bat dau bang cc02;
 	* mail guoi trao doi voi giao vien bat dau bang cc02
