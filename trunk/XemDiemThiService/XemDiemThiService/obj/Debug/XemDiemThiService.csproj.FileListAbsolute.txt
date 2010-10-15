@@ -1,0 +1,5 @@
+D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\bin\XemDiemThiService.dll
+D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\bin\XemDiemThiService.pdb
+D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.dll
+D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.pdb
