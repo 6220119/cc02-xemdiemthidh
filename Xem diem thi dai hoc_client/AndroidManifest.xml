@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="android.xemdiemthidaihoc"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name = ".About"
+			      android:label = "@string/about">
+		</activity>
+		
+		<activity android:name = "sobaodanh.ChiTietThiSinh"
+			      android:label = "@string/chi_tiet"
+			      android:theme = "@android:style/Theme.Dialog" >
+		      <intent-filter>	
+		      	<action android:name="chi_tiet"></action>
+    			<category android:name="android.intent.category.DEFAULT" />		      	
+		      </intent-filter>
+		</activity>
+		
+		<activity android:name = ".ThuTruong"
+			      android:label = "@string/thu_truong">
+		</activity>		
+		<activity android:name = ".SoBaoDanh"
+			      android:label = "@string/so_bao_danh">
+		</activity>
+    </application>
+    
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 
