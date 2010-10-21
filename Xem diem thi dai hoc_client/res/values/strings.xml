@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nhap_ma_truong">Nhập mả trường</string>    
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Xem diem thi dai hoc</string>
+    <string name="about">about us</string>
+    <string name="thu_truong">Thu khoa cua truong</string>
+    <string name="so_bao_danh">Xem diem</string>
+    <string name="label1">Nhập số báo danh</string>    
+    <string name="label3">Danh sách trường</string>
+    <string name="chi_tiet">Chi tiết thí sinh</string>
+</resources>
