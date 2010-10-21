@@ -3,3 +3,8 @@ D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\bin\XemDiemThiServ
 D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\ResolveAssemblyReference.cache
 D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.dll
 D:\Visual Studio Projects\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.pdb
+D:\DOCUMENT\HOCKI7\MTPTPM\exercise\service\XemDiemThiService\XemDiemThiService\bin\XemDiemThiService.dll
+D:\DOCUMENT\HOCKI7\MTPTPM\exercise\service\XemDiemThiService\XemDiemThiService\bin\XemDiemThiService.pdb
+D:\DOCUMENT\HOCKI7\MTPTPM\exercise\service\XemDiemThiService\XemDiemThiService\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENT\HOCKI7\MTPTPM\exercise\service\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.dll
+D:\DOCUMENT\HOCKI7\MTPTPM\exercise\service\XemDiemThiService\XemDiemThiService\obj\Debug\XemDiemThiService.pdb
