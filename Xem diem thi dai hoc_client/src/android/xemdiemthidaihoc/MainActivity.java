@@ -28,7 +28,7 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(spec);
 
         // Do the same for the other tabs
-        intent = new Intent().setClass(this, ThuTruong.class);
+        intent = new Intent().setClass(this, TimTruong.class);
         spec = tabHost.newTabSpec("theotruong").setIndicator("Top",
                           res.getDrawable(R.drawable.theotruong))
                       .setContent(intent);
