@@ -57,72 +57,27 @@ public class ChiTietThiSinh extends Activity /*implements Runnable*/ {
         HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
         
         try{
-            androidHttpTransport.call(SOAP_ACTION, envelope);
-            SoapObject result=(SoapObject)envelope.getResponse();
-            //this.setTitle("AAAA");
-            //view.setText("xxxx");
-            ChiTietThiSinh.this.setTitle(" Thí sinh : " + result.getProperty("HoTen"));
-            
-            view.setText("\tNgày sinh : " + result.getProperty("NgaySinh") + "\n" +
-                    "\tSố Báo Danh : " + result.getProperty("SoBaoDanh") + "\n" +
-                    "\tTên ngành : " + result.getProperty("TenNganh") + "\n" +
-                    "\tTên trường :" + result.getProperty("TenTruong") + "\n" +
-                    "\tĐiểm môn một : " + result.getProperty("Diem1") + "\n" +
-                    "\tĐiểm môn hai : " + result.getProperty("Diem2") + "\n" +
-                    "\tĐiểm môn ba : " + result.getProperty("Diem3") + "\n");
-            
-            pd.dismiss();
-        }
-        catch(Exception e){
-            view.setText(e.toString());
-            pd.dismiss();           
-        }
-        ///////////////////////////////////////////////////////////////////////////
-        //Thread thread = new Thread(this);
-        //thread.start();
+	            androidHttpTransport.call(SOAP_ACTION, envelope);
+	            SoapObject result=(SoapObject)envelope.getResponse();
+	            //this.setTitle("AAAA");
+	            //view.setText("xxxx");
+	            ChiTietThiSinh.this.setTitle(" Thí sinh : " + result.getProperty("HoTen"));
+	            
+	            view.setText("\tNgày sinh : " + result.getProperty("NgaySinh") + "\n" +
+	                    "\tSố Báo Danh : " + result.getProperty("SoBaoDanh") + "\n" +
+	                    "\tTên ngành : " + result.getProperty("TenNganh") + "\n" +
+	                    "\tTên trường :" + result.getProperty("TenTruong") + "\n" +
+	                    "\tĐiểm môn một\t: " + result.getProperty("Diem1") + "\n" +
+	                    "\tĐiểm môn hai\t: " + result.getProperty("Diem2") + "\n" +
+	                    "\tĐiểm môn ba \t: " + result.getProperty("Diem3") + "\n");
+	            
+		            pd.dismiss();
+		        }catch(Exception e){
+			            view.setText(e.toString());
+			            pd.dismiss();           
+			    }
             }
-            });
+        });
     }
-    /*@Override
-	public void run(){
-    	/*this.setTitle("Thí sinh : Nguyen Van A");
-    	view.setText("\tNgày sinh : " + "12 / 12 / 1993" + "\n" +
-    				"\tSố Báo Danh : " + getIntent().getStringExtra("sbd")+ "\n" +
-    				"\tTên ngành : " + "CNTT" + "\n" +
-    				"\tTên trường :" + "Khoa hoc tu nhien adfasdfa" + "\n" +
-    				"\tĐiểm môn một :\t" + "10" + "\n" +
-    				"\tĐiểm môn hai :\t" + "10" + "\n" +
-    				"\tĐiểm môn ba :\t" + "10" + "\n");
-            pd.dismiss();
-		
-    	
-    	
-	    	sbd = getIntent().getStringExtra("sbd");
-	    	SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
-	    	request.addAttribute("soBaoDanh", sbd);
-	    	SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
-	    	envelope.dotNet = true;    	    	
-	    	envelope.setOutputSoapObject(request);
-	    	HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
-    	
-    	try{
-    		androidHttpTransport.call(SOAP_ACTION, envelope);
-    		//SoapObject result=(SoapObject)envelope.getResponse();
-    	    this.setTitle("AAAA");
-    		view.setText("xxxx");
-    		this.setTitle(" Thí sinh : " + result.getProperty("HoTen"));
-    		
-    		view.setText("\tNgày sinh : " + result.getProperty("NgaySinh") + "\n" +
-    				"\tSố Báo Danh : " + result.getProperty("SoBaoDanh") + "\n" +
-    				"\tTên ngành : " + result.getProperty("TenNganh") + "\n" +
-    				"\tTên trường :" + result.getProperty("TenTruong") + "\n" +
-    				"\tĐiểm môn một : " + result.getProperty("Diem1") + "\n" +
-    				"\tĐiểm môn hai : " + result.getProperty("Diem2") + "\n" +
-    				"\tĐiểm môn ba : " + result.getProperty("Diem3") + "\n");
-    		pd.dismiss();	
-    	}catch(Exception e){
-    		view.setText(e.toString());
-    		pd.dismiss();    		
-    	}
-    }*/
+
 }
