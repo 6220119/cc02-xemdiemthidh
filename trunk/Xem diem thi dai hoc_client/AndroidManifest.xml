@@ -31,7 +31,21 @@
 		<activity android:name = ".SoBaoDanh"
 			      android:label = "@string/so_bao_danh">
 		</activity>
-    </application>
+    <activity android:name="dstruong.ListTruong" 
+    	      android:label="@string/list_truong">
+			<intent-filter>	
+		      	<action android:name="list_truong"></action>
+    			<category android:name="android.intent.category.DEFAULT" />		      	
+		    </intent-filter>
+	</activity>
+	<activity android:name="dstruong.ListThiSinh" 
+    	      android:label="@string/list_thi_sinh">
+			<intent-filter>	
+		      	<action android:name="list_thi_sinh"></action>
+    			<category android:name="android.intent.category.DEFAULT" />		      	
+		    </intent-filter>
+	</activity>
+</application>
     
     <uses-sdk android:minSdkVersion="8" />
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
