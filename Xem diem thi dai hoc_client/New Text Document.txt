@@ -1,0 +1,29 @@
+﻿<s:Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IXDTService/GetThiSinhDetails%3c/Action>
+  </s:Header>
+  <sody>
+    <GetThiSinhDetails xmlns="http://tempuri.org/">
+      <soBaoDanh>GTS00001</soBaoDanh>
+    </GetThiSinhDetails>
+  </sody>
+</s:Envelope>
+Vũ Cương Nguyễn: SoapResponse
+Vũ Cương Nguyễn: <s:Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header />
+  <sody>
+    <GetThiSinhDetailsResponse xmlns="http://tempuri.org/">
+      <GetThiSinhDetailsResult xmlns:a="http://schemas.datacontract.org/2004/07/XemDiemThiService.Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <aiem1>10</aiem1>
+        <aiem2>10</aiem2>
+        <aiem3>10</aiem3>
+        <a:GioiTinh>Nam</a:GioiTinh>
+        <a:HoTen>Nguyễn Vũ Cương</a:HoTen>
+        <a:NgaySinh>10/8/1989</a:NgaySinh>
+        <a:QueQuan>Phú Thọ</a:QueQuan>
+        <aoBaoDanh>GTS00001</aoBaoDanh>
+        <a:TenNganh>CNTT</a:TenNganh>
+        <a:TenTruong>ĐH Giao Thông Vận Tải TP.HCM</a:TenTruong>
+      </GetThiSinhDetailsResult>
+    </GetThiSinhDetailsResponse>
+  </sody
