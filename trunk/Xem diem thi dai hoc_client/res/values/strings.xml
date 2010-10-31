@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list_truong">Danh sách trường</string>
+    <string name="nhap_ma_truong">Nhập mả trường</string>    
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Xem diem thi dai hoc</string>
+    <string name="about">about us</string>
+    <string name="thu_truong">Thu khoa cua truong</string>
+    <string name="so_bao_danh">Xem diem</string>
+    <string name="label1">Nhập số báo danh</string>    
+    <string name="label3">Danh sách trường</string>
+    <string name="chi_tiet">Chi tiết thí sinh</string>
+    <string name="danh_sach_truong">Xem danh sách các trường</string>
+    <string name="list_thi_sinh">Thủ khoa của trường</string>
+</resources>
