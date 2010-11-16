@@ -1,0 +1,7 @@
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\bin\Debug\WebTest1.webtest
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\bin\Debug\testserver.dll.config
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\bin\Debug\testserver.dll
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\bin\Debug\testserver.pdb
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\obj\Debug\ResolveAssemblyReference.cache
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\obj\Debug\testserver.dll
+D:\tony\xemdiemthidh\XemDiemThiService\testserver\obj\Debug\testserver.pdb
