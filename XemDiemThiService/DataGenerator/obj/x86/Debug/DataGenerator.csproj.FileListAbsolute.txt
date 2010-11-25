@@ -1,0 +1,6 @@
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\bin\Debug\DataGenerator.exe.config
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\bin\Debug\DataGenerator.exe
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\bin\Debug\DataGenerator.pdb
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\obj\x86\Debug\DataGenerator.exe
+D:\Visual Studio Projects\XemDiemThiService\DataGenerator\obj\x86\Debug\DataGenerator.pdb
