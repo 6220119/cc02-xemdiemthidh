@@ -1,0 +1,6 @@
+D:\webasp\TestProject3\bin\Debug\TestProject3.dll
+D:\webasp\TestProject3\bin\Debug\TestProject3.pdb
+D:\webasp\TestProject3\obj\Debug\ResolveAssemblyReference.cache
+D:\webasp\TestProject3\obj\Debug\TestProject3.dll
+D:\webasp\TestProject3\obj\Debug\TestProject3.pdb
+D:\webasp\TestProject3\bin\Debug\LoadTest1.loadtest
