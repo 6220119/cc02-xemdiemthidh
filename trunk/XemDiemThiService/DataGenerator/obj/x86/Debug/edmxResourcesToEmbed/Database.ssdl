@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiemThiDHModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DiemThiDHModelStoreContainer">
+    <EntitySet Name="Nganh" EntityType="DiemThiDHModel.Store.Nganh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ThiSinh" EntityType="DiemThiDHModel.Store.ThiSinh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Truong" EntityType="DiemThiDHModel.Store.Truong" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Nganh_Truong" Association="DiemThiDHModel.Store.FK_Nganh_Truong">
+      <End Role="Truong" EntitySet="Truong" />
+      <End Role="Nganh" EntitySet="Nganh" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThiSinh_Nganh" Association="DiemThiDHModel.Store.FK_ThiSinh_Nganh">
+      <End Role="Nganh" EntitySet="Nganh" />
+      <End Role="ThiSinh" EntitySet="ThiSinh" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Nganh">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaTruong" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="TenNganh" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ThiSinh">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdNganh" Type="int" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="NgaySinh" Type="smalldatetime" Nullable="false" />
+    <Property Name="QueQuan" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="GioiTinh" Type="bit" Nullable="false" />
+    <Property Name="Diem1" Type="float" Nullable="false" />
+    <Property Name="Diem2" Type="float" Nullable="false" />
+    <Property Name="Diem3" Type="float" Nullable="false" />
+    <Property Name="SoBaoDanh" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Truong">
+    <Key>
+      <PropertyRef Name="MaTruong" />
+    </Key>
+    <Property Name="MaTruong" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="TenTruong" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Nganh_Truong">
+    <End Role="Truong" Type="DiemThiDHModel.Store.Truong" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Nganh" Type="DiemThiDHModel.Store.Nganh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Truong">
+        <PropertyRef Name="MaTruong" />
+      </Principal>
+      <Dependent Role="Nganh">
+        <PropertyRef Name="MaTruong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThiSinh_Nganh">
+    <End Role="Nganh" Type="DiemThiDHModel.Store.Nganh" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ThiSinh" Type="DiemThiDHModel.Store.ThiSinh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ThiSinh">
+        <PropertyRef Name="IdNganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

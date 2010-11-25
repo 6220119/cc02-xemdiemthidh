@@ -1,0 +1,5 @@
+D:\Visual Studio Projects\XemDiemThiService\QuanLyCSDL\bin\QuanLyCSDL.dll
+D:\Visual Studio Projects\XemDiemThiService\QuanLyCSDL\bin\QuanLyCSDL.pdb
+D:\Visual Studio Projects\XemDiemThiService\QuanLyCSDL\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio Projects\XemDiemThiService\QuanLyCSDL\obj\Debug\QuanLyCSDL.dll
+D:\Visual Studio Projects\XemDiemThiService\QuanLyCSDL\obj\Debug\QuanLyCSDL.pdb
